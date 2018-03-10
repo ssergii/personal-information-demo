@@ -9,7 +9,7 @@ using PersonalInformationService.DataTransferObjects;
 
 namespace PersonalInformationService.ServiceImplementation
 {
-    class PersonalInfromationService : IPersonalInfromationService
+    public class PersonalInfromationService : IPersonalInfromationService
     {
         public PersonalInformationResponce GetPersonalInformation(PersonalInformationRequest request)
         {
